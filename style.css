@@ -145,6 +145,18 @@ a{
   font-weight: 400;
 }
 
+.mnstra-btm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mnstr-right {
+  display: flex;
+  justify-content: space-around;
+  gap: 2vw;
+  padding-top: 10px;
+}
+
 .mns-para{
   color: #2c3926;
   font-family: "Sacramento", serif;
@@ -154,4 +166,21 @@ a{
   top: -30px;
 }
 
+.mnstr-child {
+  width: 39vh;
+  text-align: center;
+}
+
+.mns-icon{
+  color: f4f4f4;
+}
+
+.mns-hchild{
+  color: #0f0f0fc7;
+  padding: 5px 0;
+}
+
+.mns-pchild{
+  color: #0f0f0fc7;
+}
 /*2nd area end */
