@@ -52,17 +52,16 @@ a{
  color: rgba(0, 0, 0, 0.81);
 }
 
-/* 1st area start*/
+/* ____1st area start____*/
 .bck-img {
  background-image: url(./assists/area1.png);
  background-position: top;
  background-size: cover;
 }
-/* 1st area end*/
+/* ____1st area end____*/
 
 .huse-prnt{
  display: flex;
- /* flex-direction: column; */
  justify-content: center;
  align-items: center;
 }
@@ -111,7 +110,6 @@ a{
  height: 29px;
  border-radius: .3rem;
  border: none;
- /* margin-bottom: 10px; */
  color: #000000c2;
  margin-bottom: 5px;
 }
@@ -120,17 +118,18 @@ a{
    color: #000000c2;
 }
 
-/*1st area end */
+/*____1st area end____ */
 
-/*2nd area start */
+/*____2nd area start____ */
 .bcolor-mnstr {
   background-color: white;
-  height: 389px;
+  height: 500px;
+
 }
 
 .bimg-mnstr {
   background-image: url(./assists/area2.png);
-  height: 309px;
+  height: 350px;
   background-position: top;
   background-position-y: -2px;
   background-size: cover;
@@ -139,7 +138,7 @@ a{
 
 .mnstra-hed {
   position: relative;
-  top: 240px;
+  top: 279px;
   color: #2c3926;
   font-size: 50px;
   font-weight: 400;
@@ -148,6 +147,7 @@ a{
 .mnstra-btm {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 10px;
 }
 
 .mnstr-right {
@@ -172,7 +172,7 @@ a{
 }
 
 .mns-icon{
-  color: f4f4f4;
+  color: rgba(0, 0, 0, 0.848);
 }
 
 .mns-hchild{
@@ -184,3 +184,29 @@ a{
   color: #0f0f0fc7;
 }
 /*2nd area end */
+
+/* 3rd area start */
+.arivel-back{
+  background-image: url(./assists/area3.png);
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.arvel-bdr, .arvel-bline{
+  border: 1px solid black;
+  width: 125px
+}
+
+.arvl-space{
+  padding-top: 10px;
+}
+
+.arvel-chld {
+  display: flex;
+  gap: 5px;
+  padding: 4px 0;
+}
+
+/* 3rd area end */
