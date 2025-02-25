@@ -124,7 +124,6 @@ a{
 .bcolor-mnstr {
   background-color: white;
   height: 500px;
-
 }
 
 .bimg-mnstr {
@@ -134,6 +133,10 @@ a{
   background-position-y: -2px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.arvel-hb{
+  padding-bottom: 5px;
 }
 
 .mnstra-hed {
@@ -150,20 +153,26 @@ a{
   padding-bottom: 10px;
 }
 
+.mnstr-left {
+  width: 50%;
+}
+
 .mnstr-right {
   display: flex;
   justify-content: space-around;
   gap: 2vw;
   padding-top: 10px;
+  width: 50%;
 }
 
-.mns-para{
+.mns-para {
   color: #2c3926;
   font-family: "Sacramento", serif;
   font-weight: 400;
   font-size: 50px;
   position: relative;
   top: -30px;
+  left: 7px;
 }
 
 .mnstr-child {
@@ -180,12 +189,32 @@ a{
   padding: 5px 0;
 }
 
-.mns-pchild{
+.mns-pchild {
   color: #0f0f0fc7;
+  width: 13vw;
 }
 /*2nd area end */
 
 /* 3rd area start */
+
+.best-sell {
+  padding-bottom: 50px;
+}
+
+.arrivel.main {
+  background-color: #ffffff;
+  width: 227px;
+  padding: 20px 0 20px  20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+  height: 230px;
+  position: relative;
+  left: 150px;
+  color: #2c3926;
+}
+
 .arivel-back{
   background-image: url(./assists/area3.png);
   height: 500px;
@@ -194,7 +223,7 @@ a{
   background-repeat: no-repeat;
 }
 
-.arvel-bdr, .arvel-bline{
+.arvel-bdr, .arvel-blin{
   border: 1px solid black;
   width: 125px
 }
@@ -209,4 +238,58 @@ a{
   padding: 4px 0;
 }
 
+
+
 /* 3rd area end */
+
+/* 4th area start */
+.indr-color{
+  color: #2c3926;
+  
+}
+
+.indr-h {
+  padding-bottom: 13px;
+  color: #829c2d;
+  font-size: 35px;
+}
+
+.bsts-btm {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.plnt-img {
+  height: 265px;
+  border: 1px solid whitesmoke;
+}
+
+/* 4th area end */
+
+/* 5th area start */
+
+.bead-plant{
+  background-image: url(./assists/area5.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* padding-bottom: 50px; */
+  height: 300px;
+}
+
+h1.beadp-h {
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+/* 5th area end */
+
+.invite-plant{
+  background-image: url(./assists/area6.png);
+  padding-bottom: 50px;
+}
+
+.invit-clr{
+  color: #3a4539;
+}
