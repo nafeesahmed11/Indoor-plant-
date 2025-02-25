@@ -2,8 +2,12 @@
  margin: 0;
  padding: 0;
  font-family: "Roboto", serif;
-
 }
+
+a{
+  text-decoration: none;
+}
+
 .spacer{
  padding: 0 30px;
 }
@@ -112,23 +116,42 @@
  margin-bottom: 5px;
 }
 
+.huse-btn a{
+   color: #000000c2;
+}
+
 /*1st area end */
 
 /*2nd area start */
 .bcolor-mnstr {
- background-color: white;
- height: 69vh;
+  background-color: white;
+  height: 389px;
 }
 
 .bimg-mnstr {
- background-image: url(./assists/area2.png);
- height: 64vh;
- background-position: top;
- background-size: cover;
+  background-image: url(./assists/area2.png);
+  height: 309px;
+  background-position: top;
+  background-position-y: -2px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.mnstra-hed{
- bottom: 0%;
+.mnstra-hed {
+  position: relative;
+  top: 240px;
+  color: #2c3926;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.mns-para{
+  color: #2c3926;
+  font-family: "Sacramento", serif;
+  font-weight: 400;
+  font-size: 50px;
+  position: relative;
+  top: -30px;
 }
 
 /*2nd area end */
