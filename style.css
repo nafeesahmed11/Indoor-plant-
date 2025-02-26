@@ -324,11 +324,37 @@ h1.beadp-h {
 /* 7th area end */
 
 /* 8th area start */
-.pot-tag{
-  background-image:url(./assists/pl&pot-tag.png);
-  background-position: center;
-  background-size: cover;
-  height: 100px;
-  width: 100px;
+
+.plandpot-hed {
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.plant-h{
+  font-size: 30px;
+  color: #035503;
+}
+
+.plant-p{
+  color: #013001
+  font-size: 20px;
+}
+
+.plandpot-cata {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 15px;
+  justify-items: center;
+}
+
+.cata-1 {
+  width: 208px;
+  color: #486138;
+}
+
+.pot-pandpr {
+  display: flex;
+  justify-content: space-between;
 }
 /* 8th area end */
