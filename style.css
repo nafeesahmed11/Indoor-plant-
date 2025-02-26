@@ -287,9 +287,48 @@ h1.beadp-h {
 
 .invite-plant{
   background-image: url(./assists/area6.png);
-  padding-bottom: 50px;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0;
+  height: 300px;
+  
 }
 
 .invit-clr{
   color: #3a4539;
 }
+
+/* 7th area start */
+.halty-plnts{
+  background-image: url(./assists/area7.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+  height: 300px;
+  padding: 50px 0;
+
+}
+
+.helty-clr{
+  color: whitesmoke;
+}
+
+.halty-con {
+  text-align: end;
+}
+
+.helty-hs{
+  padding: 10px 0 2px;
+}
+/* 7th area end */
+
+/* 8th area start */
+.pot-tag{
+  background-image:url(./assists/pl&pot-tag.png);
+  background-position: center;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
+/* 8th area end */
