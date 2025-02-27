@@ -324,6 +324,9 @@ h1.beadp-h {
 /* 7th area end */
 
 /* 8th area start */
+main.pl-and-pot {
+  margin: 50px 0;
+}
 
 .plandpot-hed {
   text-align: center;
@@ -358,3 +361,82 @@ h1.beadp-h {
   justify-content: space-between;
 }
 /* 8th area end */
+
+/* 9th area start */
+.life-cont{
+  height: 300px;
+  background-image: url(./assists/area9.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.life-tcon {
+  width: 528px;
+  text-align: end;
+  padding: 50px 0px 0px;
+}
+/* 9th area end */
+/* footer area start */
+.fot-area{
+  height: 300px;
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+}
+
+.fot-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.fot-hous {
+  width: 30%;
+}
+
+.fot-paremt {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.fot-expl,.fot-cata{
+  font-size: 15px;
+}
+
+.footer-h{
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.fot-li{
+  list-style: none;
+  /* padding-top: 10px; */
+}
+
+.fot-top li a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 6px;
+  display: flex;
+}
+
+.fot-bottom {
+  display: flex;
+  padding: 20px 0;
+}
+
+.get-app {
+  width: 50%;
+}
+
+.stores {
+  display: flex;
+  gap: 5px;
+  padding-top: 5px;
+}
+
+.stre-space{
+  justify-content: space-between;
+}
+/* footer area end */
