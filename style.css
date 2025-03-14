@@ -10,6 +10,7 @@ a{
 
 .spacer{
  padding: 0 30px;
+ overflow: hidden;
 }
 
 /* nav area */
@@ -465,10 +466,20 @@ main.pl-and-pot {
 }
 
 .fot-bottom {
-  display: flex;
-  padding: 20px 0;
   flex-direction: column;
   gap: 7px;
 }
 
+.get-app {
+  padding-bottom: 10px;
+}
+
+.stores {
+  padding-top: 7px;
+}
+
+.stre-space {
+  justify-content:start;
+  gap: 1.5em;
+}
 }
