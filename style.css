@@ -10,7 +10,7 @@ a{
 
 .spacer{
  padding: 0 30px;
- overflow: hidden;
+ /* overflow: hidden; */
 }
 
 /* nav area */
@@ -481,5 +481,8 @@ main.pl-and-pot {
 .stre-space {
   justify-content:start;
   gap: 1.5em;
+}
+.spacer {
+  overflow: hidden;
 }
 }
